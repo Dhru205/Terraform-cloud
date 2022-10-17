@@ -12,7 +12,7 @@ jobs:
     env:
       AWS_ACCESS_KEY_ID: ${{secrets.AWS_KEY_ID}}
       AWS_SECRET_ACCESS_KEY: ${{secrets.AWS_SECRETE_ID}}
-      AWS REGION: 'ap-north-east-1'
+      AWS REGION: 'ap-northeast-1'
 
     steps:  
       - name: Checkout
